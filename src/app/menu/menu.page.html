@@ -1,0 +1,24 @@
+<app-header titulo="Menú"></app-header>
+
+<ion-menu side="start" menuId="first">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item>Menu Item 1</ion-item>
+      <ion-item>Menu Item 2</ion-item>
+      <ion-item>Menu Item 3</ion-item>
+      <ion-item>Menu Item 4</ion-item>
+      <ion-item>Menu Item 5</ion-item>
+    </ion-list>
+  </ion-content>
+  <ion-router-outlet main></ion-router-outlet>
+</ion-menu>
+
+
+<ion-content>
+  <ion-button full shape="round" (click)="open()">Abrir Menú</ion-button>
+</ion-content>
